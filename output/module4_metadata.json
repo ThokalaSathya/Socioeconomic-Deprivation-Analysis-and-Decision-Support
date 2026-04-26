@@ -1,0 +1,74 @@
+{
+  "project": "District-Level Multidimensional Socioeconomic Deprivation Analysis in Karnataka",
+  "module": "Module 4 - Spatial Analysis",
+  "version": "2.0 (Real Geographic Coordinates)",
+  "creation_date": "2026-02-01 21:48:02",
+  "spatial_data": {
+    "coordinate_source": "Official district headquarters - Government of Karnataka",
+    "coordinate_verification": "Google Maps + Survey of India",
+    "n_districts": 31,
+    "latitude_range": [
+      11.926,
+      17.9134
+    ],
+    "longitude_range": [
+      74.4977,
+      78.1298
+    ]
+  },
+  "spatial_weights": {
+    "method": "k-nearest neighbors",
+    "k": 5,
+    "avg_neighbor_distance_km": 94.32282100193954,
+    "n_districts": 31,
+    "total_connections": 155
+  },
+  "global_morans_i": {
+    "I": 0.3445473641582591,
+    "E_I": -0.03333333333333333,
+    "variance": 0.010106528457051123,
+    "z_score": 3.7588388482402557,
+    "p_value_analytical": 0.00017070373802852146,
+    "p_value_permutation": 0.002,
+    "pattern": "Positive spatial autocorrelation (CLUSTERING)",
+    "interpretation": "Similar SEDI values cluster together spatially",
+    "significance": "SIGNIFICANT (p < 0.05)",
+    "n_permutations": 999
+  },
+  "lisa_summary": {
+    "total_significant": 9,
+    "cluster_distribution": {
+      "NS": 22,
+      "LL": 5,
+      "LH": 2,
+      "HH": 2
+    },
+    "hotspots_ll": [
+      "Bidar",
+      "Kalaburagi",
+      "Raichur",
+      "Vijayapura",
+      "Yadgir"
+    ],
+    "coldspots_hh": [
+      "Chikkamagaluru",
+      "Udupi"
+    ],
+    "outliers_hl": [],
+    "outliers_lh": [
+      "Chamarajanagar",
+      "Ramanagara"
+    ]
+  },
+  "methodology": {
+    "global_autocorrelation": "Moran's I with permutation inference",
+    "local_autocorrelation": "Local Moran's I (LISA)",
+    "distance_calculation": "Haversine formula (geodesic distances)",
+    "significance_testing": "Permutation-based randomization"
+  },
+  "references": [
+    "Anselin, L. (1988). Spatial Econometrics: Methods and Models",
+    "Anselin, L. (1995). Local Indicators of Spatial Association\u2014LISA",
+    "Tobler, W. (1970). First Law of Geography"
+  ]
+}

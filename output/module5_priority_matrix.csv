@@ -1,0 +1,4 @@
+Deprivation_Level,HIGH,MODERATE,URGENT
+High Deprivation,0,0,10
+Low Deprivation,0,10,0
+Medium Deprivation,11,0,0

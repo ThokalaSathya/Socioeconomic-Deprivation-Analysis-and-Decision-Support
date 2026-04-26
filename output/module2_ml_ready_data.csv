@@ -1,0 +1,32 @@
+District,Per_Capita_Income,Literacy_Rate,Healthcare_Facilities_Per_Lakh,Road_Density,Electricity_Access,Unemployment_Rate,Urbanization_Rate,SEDI,Deprivation_Category
+Bagalkot,98500,70.5,18.2,1.25,89.2,3.8,25.3,32.08295637652832,High Deprivation
+Ballari,125000,67.4,22.5,1.48,91.5,4.2,39.8,37.375831204544255,Medium Deprivation
+Belagavi,105000,73.5,24.8,1.35,90.8,3.5,28.7,41.44151950190413,Medium Deprivation
+Bengaluru Rural,142000,77.2,28.5,1.82,95.3,2.8,15.4,54.73241159098068,Low Deprivation
+Bengaluru Urban,385000,88.5,48.5,3.15,98.5,4.1,89.7,94.34103260869566,Low Deprivation
+Bidar,87500,70.1,16.8,1.15,87.5,5.2,22.8,24.47049318749844,High Deprivation
+Chamarajanagar,78500,61.5,14.5,0.95,85.2,4.8,18.5,16.423375776640704,High Deprivation
+Chikkaballapur,102000,71.8,19.8,1.42,92.8,3.2,16.2,38.84499535843796,Medium Deprivation
+Chikkamagaluru,118000,75.8,25.2,1.55,93.5,2.9,20.5,48.10141591895666,Medium Deprivation
+Chitradurga,96000,72.1,20.5,1.38,90.5,3.6,24.8,36.52801191284637,Medium Deprivation
+Dakshina Kannada,165000,88.6,38.5,2.25,97.2,2.5,48.5,75.64079017153375,Low Deprivation
+Davanagere,112000,75.3,26.8,1.65,92.8,3.3,33.2,47.20072264508139,Medium Deprivation
+Dharwad,158000,80.8,35.2,2.05,95.5,2.9,56.8,65.53482922576795,Low Deprivation
+Gadag,94500,72.5,19.5,1.28,89.8,4.0,26.5,33.789608633862,High Deprivation
+Hassan,115000,76.3,24.5,1.58,94.2,2.7,19.8,48.69699437887235,Low Deprivation
+Haveri,98000,72.8,21.2,1.32,90.2,3.7,24.2,37.03074765162682,Medium Deprivation
+Kalaburagi,89500,64.5,17.5,1.22,86.5,5.5,35.8,21.704722899977508,High Deprivation
+Kodagu,145000,82.5,32.5,1.88,95.8,2.3,15.8,61.057614176364815,Low Deprivation
+Kolar,108000,71.5,22.8,1.45,91.5,3.4,21.5,40.27103778604832,Medium Deprivation
+Koppal,86500,68.2,16.2,1.12,87.8,4.5,23.8,25.639472880698623,High Deprivation
+Mandya,105000,70.8,23.5,1.52,92.2,3.8,18.8,39.83897544346435,Medium Deprivation
+Mysuru,148000,84.2,36.8,2.15,96.5,2.6,44.5,69.90163628257872,Low Deprivation
+Raichur,82500,59.5,15.2,1.05,84.5,6.2,28.5,12.008908255193044,High Deprivation
+Ramanagara,98500,69.5,21.5,1.48,91.8,3.9,17.2,35.76847061878971,Medium Deprivation
+Shivamogga,122000,77.5,27.5,1.72,94.5,2.8,28.5,52.59218434675287,Low Deprivation
+Tumakuru,118000,75.2,25.8,1.68,93.8,3.1,22.8,47.82644312796271,Medium Deprivation
+Udupi,152000,86.2,34.5,2.08,96.8,2.4,38.5,69.44187785107724,Low Deprivation
+Uttara Kannada,135000,84.5,30.5,1.78,95.2,2.6,25.8,60.393415716257934,Low Deprivation
+Vijayapura,85500,65.8,16.8,1.18,86.8,5.8,24.5,20.465225704746377,High Deprivation
+Yadgir,75500,51.8,13.5,0.88,82.5,7.1,19.5,0.3448855989232839,High Deprivation
+Vijayanagara,91000,66.5,17.8,1.2,88.5,4.8,22.8,26.155492060905992,High Deprivation

@@ -1,0 +1,39 @@
+================================================================================
+EXPLORATORY DATA ANALYSIS SUMMARY REPORT
+Socioeconomic Deprivation Analysis - Karnataka Districts
+================================================================================
+
+1. DATASET OVERVIEW
+----------------------------------------
+Number of Districts: 31
+Number of Indicators: 13
+SEDI Score Range: [0.34, 94.34]
+Mean SEDI: 42.44 ± 20.30
+
+2. DEPRIVATION DISTRIBUTION
+----------------------------------------
+Medium Deprivation: 11 districts (35.5%)
+High Deprivation: 10 districts (32.3%)
+Low Deprivation: 10 districts (32.3%)
+
+3. STATISTICAL CHARACTERISTICS
+----------------------------------------
+Most Variable Indicator: Urbanization_Rate (CV = 51.77%)
+Most Skewed Indicator: Per_Capita_Income (Skew = 3.93)
+
+4. DIMENSIONALITY ANALYSIS
+----------------------------------------
+Components explaining 80% variance: 1
+Components explaining 90% variance: 2
+Primary dimension (PC1) variance: 86.07%
+
+5. RECOMMENDATIONS FOR ML MODELING
+----------------------------------------
+• Use all 7 indicators as features (no severe multicollinearity detected)
+• Consider feature importance analysis to identify key drivers
+• Small sample size (n<50) → Use cross-validation carefully
+• Monitor for overfitting due to limited data
+
+================================================================================
+END OF EDA REPORT
+================================================================================

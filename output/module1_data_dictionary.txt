@@ -1,0 +1,96 @@
+
+================================================================================
+MODULE 1: DATA DICTIONARY
+================================================================================
+
+PROJECT: District-Level Multidimensional Socioeconomic Deprivation Analysis
+         in Karnataka, India
+
+================================================================================
+RAW INDICATORS (from Official Sources)
+================================================================================
+
+CENSUS OF INDIA 2011:
+- Literacy_Rate: Percentage of literate population (age 7+) [0-100%]
+- Urbanization_Rate: Percentage of population in urban areas [0-100%]
+- Electricity_Access: Percentage of households with electricity [0-100%]
+- Safe_Water_Access: Percentage of households with safe drinking water [0-100%]
+
+NITI AAYOG SDG INDIA INDEX 2021-22:
+- Education_Score: Composite score for SDG 4 (Quality Education) [0-100]
+- Health_Score: Composite score for SDG 3 (Good Health and Well-being) [0-100]
+- Infrastructure_Score: Composite score for SDG 9 & 11 (Infrastructure) [0-100]
+
+ECONOMIC SURVEY OF KARNATAKA 2022-23:
+- Per_Capita_Income: Average income per person in INR
+- Unemployment_Rate: Percentage of unemployed workforce [0-100%]
+- Healthcare_Facilities_Per_Lakh: Number of healthcare facilities per 100,000 population
+- Road_Density: Road length in kilometers per square kilometer
+
+================================================================================
+NORMALIZED INDICATORS
+================================================================================
+
+All indicators normalized to [0, 1] scale using Min-Max normalization:
+- Positive indicators (higher = better): X_norm = (X - X_min) / (X_max - X_min)
+- Negative indicators (higher = worse): X_norm = 1 - [(X - X_min) / (X_max - X_min)]
+
+Normalized variables have suffix: _norm
+Example: Literacy_Rate_norm, Unemployment_Rate_norm
+
+================================================================================
+DOMAIN SCORES
+================================================================================
+
+Economic_Score: Average of normalized economic indicators (30% weight)
+  - Per_Capita_Income_norm
+  - Unemployment_Rate_norm
+
+Education_Score: Average of normalized education indicators (25% weight)
+  - Literacy_Rate_norm
+  - Education_Score_norm
+
+Health_Score: Average of normalized health indicators (20% weight)
+  - Healthcare_Facilities_Per_Lakh_norm
+  - Health_Score_norm
+
+Infrastructure_Score: Average of normalized infrastructure indicators (25% weight)
+  - Road_Density_norm
+  - Electricity_Access_norm
+  - Urbanization_Rate_norm
+  - Infrastructure_Score_norm
+
+================================================================================
+COMPOSITE INDEX
+================================================================================
+
+SEDI (Socioeconomic Deprivation Index): [0-100 scale]
+  Formula: SEDI = Σ(weight_d × domain_score_d) × 100
+  
+  Interpretation:
+  - Higher SEDI = Lower Deprivation (Better socioeconomic conditions)
+  - Lower SEDI = Higher Deprivation (Worse socioeconomic conditions)
+
+================================================================================
+CATEGORICAL VARIABLES
+================================================================================
+
+Deprivation_Category: Three-level categorization
+  - Low Deprivation: Districts with high SEDI scores
+  - Medium Deprivation: Districts with moderate SEDI scores
+  - High Deprivation: Districts with low SEDI scores
+
+SEDI_Rank: Rank based on SEDI score
+  - Rank 1 = Lowest deprivation (highest SEDI)
+  - Higher rank = Higher deprivation (lower SEDI)
+
+================================================================================
+METADATA
+================================================================================
+
+District: Official district name (standardized nomenclature)
+
+Total variables in processed dataset: 27
+Total districts: 31
+
+================================================================================

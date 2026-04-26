@@ -1,0 +1,155 @@
+{
+  "project": "District-Level Multidimensional Socioeconomic Deprivation Analysis in Karnataka",
+  "module": "Module 1 - Data Loading and SEDI Construction",
+  "version": "2.0 (Simplified)",
+  "creation_date": "2026-02-01 14:05:19",
+  "data_sources": {
+    "census_2011": {
+      "source": "Census of India 2011",
+      "indicators": [
+        "Literacy_Rate",
+        "Urbanization_Rate",
+        "Electricity_Access",
+        "Safe_Water_Access"
+      ],
+      "authority": "Office of the Registrar General & Census Commissioner, India"
+    },
+    "niti_aayog_sdg": {
+      "source": "NITI Aayog SDG India Index 2021-22",
+      "indicators": [
+        "Education_Score",
+        "Health_Score",
+        "Infrastructure_Score"
+      ],
+      "authority": "NITI Aayog, Government of India"
+    },
+    "economic_survey": {
+      "source": "Economic Survey of Karnataka 2022-23",
+      "indicators": [
+        "Per_Capita_Income",
+        "Unemployment_Rate",
+        "Healthcare_Facilities_Per_Lakh",
+        "Road_Density"
+      ],
+      "authority": "Planning, Programme Monitoring and Statistics Department, Government of Karnataka"
+    }
+  },
+  "methodology": {
+    "normalization": "Min-Max normalization with directionality consideration",
+    "index_construction": "Domain-based weighted average",
+    "domain_weights": {
+      "Economic": {
+        "weight": 0.3,
+        "indicators": [
+          "Per_Capita_Income_norm",
+          "Unemployment_Rate_norm"
+        ]
+      },
+      "Education": {
+        "weight": 0.25,
+        "indicators": [
+          "Literacy_Rate_norm",
+          "Education_Score_norm"
+        ]
+      },
+      "Health": {
+        "weight": 0.2,
+        "indicators": [
+          "Healthcare_Facilities_Per_Lakh_norm",
+          "Health_Score_norm"
+        ]
+      },
+      "Infrastructure": {
+        "weight": 0.25,
+        "indicators": [
+          "Road_Density_norm",
+          "Electricity_Access_norm",
+          "Urbanization_Rate_norm",
+          "Infrastructure_Score_norm"
+        ]
+      }
+    }
+  },
+  "normalization_metadata": {
+    "Literacy_Rate": {
+      "direction": "positive",
+      "min": 51.8,
+      "max": 88.6,
+      "range": 36.8
+    },
+    "Urbanization_Rate": {
+      "direction": "positive",
+      "min": 15.4,
+      "max": 89.7,
+      "range": 74.3
+    },
+    "Electricity_Access": {
+      "direction": "positive",
+      "min": 82.5,
+      "max": 98.5,
+      "range": 16.0
+    },
+    "Safe_Water_Access": {
+      "direction": "positive",
+      "min": 69.5,
+      "max": 94.2,
+      "range": 24.700000000000003
+    },
+    "Per_Capita_Income": {
+      "direction": "positive",
+      "min": 75500.0,
+      "max": 385000.0,
+      "range": 309500.0
+    },
+    "Healthcare_Facilities_Per_Lakh": {
+      "direction": "positive",
+      "min": 13.5,
+      "max": 48.5,
+      "range": 35.0
+    },
+    "Road_Density": {
+      "direction": "positive",
+      "min": 0.88,
+      "max": 3.15,
+      "range": 2.27
+    },
+    "Education_Score": {
+      "direction": "positive",
+      "min": 48.5,
+      "max": 89.5,
+      "range": 41.0
+    },
+    "Health_Score": {
+      "direction": "positive",
+      "min": 47.2,
+      "max": 85.2,
+      "range": 38.0
+    },
+    "Infrastructure_Score": {
+      "direction": "positive",
+      "min": 45.5,
+      "max": 88.7,
+      "range": 43.2
+    },
+    "Unemployment_Rate": {
+      "direction": "negative",
+      "min": 2.3,
+      "max": 7.1,
+      "range": 4.8
+    }
+  },
+  "statistics": {
+    "total_districts": 31,
+    "sedi_range": [
+      0.34488559892328396,
+      94.34103260869566
+    ],
+    "sedi_mean": 42.44019673850062,
+    "sedi_std": 20.29661119943639,
+    "category_distribution": {
+      "Medium Deprivation": 11,
+      "High Deprivation": 10,
+      "Low Deprivation": 10
+    }
+  }
+}

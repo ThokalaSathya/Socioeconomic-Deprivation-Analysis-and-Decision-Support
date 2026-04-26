@@ -1,0 +1,57 @@
+================================================================================
+DECISION SUPPORT SYSTEM - EXECUTIVE SUMMARY
+Socioeconomic Deprivation Analysis - Karnataka
+================================================================================
+
+1. STATE-LEVEL OVERVIEW
+------------------------------------------------------------
+Total Districts Analyzed:        31
+Average SEDI Score:              42.44/100
+SEDI Standard Deviation:         20.30
+Range:                           0.34 - 94.34
+
+2. INTERVENTION PRIORITIES
+------------------------------------------------------------
+HIGH           :  11 districts ( 35.5%)
+URGENT         :  10 districts ( 32.3%)
+MODERATE       :  10 districts ( 32.3%)
+
+3. SECTORAL INTERVENTION NEEDS
+------------------------------------------------------------
+Economic            :   8 districts ( 25.8%)
+Education           :  18 districts ( 58.1%)
+Health              :  10 districts ( 32.3%)
+Infrastructure      :  18 districts ( 58.1%)
+
+4. IMMEDIATE ACTION REQUIRED (Top 10 Priority Districts)
+------------------------------------------------------------
+Yadgir                    - SEDI:  0.34 - Focus: Economic Development
+Raichur                   - SEDI: 12.01 - Focus: Economic Development
+Chamarajanagar            - SEDI: 16.42 - Focus: Economic Development
+Vijayapura                - SEDI: 20.47 - Focus: Economic Development
+Kalaburagi                - SEDI: 21.70 - Focus: Economic Development
+Bidar                     - SEDI: 24.47 - Focus: Economic Development
+Koppal                    - SEDI: 25.64 - Focus: Economic Development
+Vijayanagara              - SEDI: 26.16 - Focus: Economic Development
+Bagalkot                  - SEDI: 32.08 - Focus: Education Enhancement
+Gadag                     - SEDI: 33.79 - Focus: Education Enhancement
+
+5. KEY POLICY RECOMMENDATIONS
+------------------------------------------------------------
+A. IMMEDIATE PRIORITIES:
+   • Deploy emergency interventions in 10 URGENT priority districts
+   • Focus on Education Enhancement as primary sector
+
+B. MEDIUM-TERM STRATEGIES:
+   • Implement sectoral programs across 31 districts
+   • Address infrastructure gaps in rural areas
+   • Strengthen education and healthcare systems
+
+C. MONITORING & EVALUATION:
+   • Establish quarterly SEDI tracking mechanism
+   • Conduct impact assessments after 12-18 months
+   • Adjust interventions based on outcome data
+
+================================================================================
+END OF EXECUTIVE SUMMARY
+================================================================================

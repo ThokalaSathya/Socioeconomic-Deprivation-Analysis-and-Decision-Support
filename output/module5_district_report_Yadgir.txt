@@ -1,0 +1,41 @@
+======================================================================
+DISTRICT REPORT CARD: YADGIR
+======================================================================
+
+1. OVERALL ASSESSMENT
+----------------------------------------
+SEDI Score:           0.34/100
+Deprivation Level:    High Deprivation
+State Rank:           31/31
+Priority Level:       URGENT
+
+2. INDICATOR PROFILE
+----------------------------------------
+✗ Per_Capita_Income                  : 75500.00 (State avg: 120064.52)
+✗ Literacy_Rate                      :    51.80 (State avg: 73.32)
+✗ Healthcare_Facilities_Per_Lakh     :    13.50 (State avg: 24.43)
+✗ Road_Density                       :     0.88 (State avg: 1.55)
+✗ Electricity_Access                 :    82.50 (State avg: 91.59)
+✗ Unemployment_Rate                  :     7.10 (State avg: 3.81)
+✗ Urbanization_Rate                  :    19.50 (State avg: 29.00)
+
+3. IDENTIFIED DEFICITS
+----------------------------------------
+• Economic Development
+• Education Enhancement
+• Healthcare Infrastructure
+• Infrastructure Development
+
+4. POLICY RECOMMENDATIONS
+----------------------------------------
+Primary Focus:   Economic Development
+Secondary Focus: Education Enhancement, Healthcare Infrastructure, Infrastructure Development
+
+Recommended Programs:
+  1. Skill Development Programs
+  2. MSME Support Schemes
+  3. Rural Employment Guarantee
+  4. Adult Literacy Campaigns
+  5. School Infrastructure Upgrade
+
+======================================================================
